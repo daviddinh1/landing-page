@@ -1,3 +1,32 @@
-body{
- color: grey;
+*{
+  font-family: helvetica;
 }
+
+ul {
+ list-style-type: none;
+}
+
+.header {
+ background: #1f2937;
+}
+
+.header-link{
+ font-size: 18px;
+ color: #e5e7eb;
+ display: flex;
+ gap: 16px;
+ margin-left: auto;
+}
+
+.header-items{
+ display: flex;
+ justify-content: space-around;
+}
+
+#header-logo{
+ font-size: 24px;
+ color: white;
+ font-weight: bold;
+}
+
+

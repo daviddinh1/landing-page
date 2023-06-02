@@ -5,17 +5,21 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Landing page</title>
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
- <div> <!--Use this div flexbox for the header-->
-  <ul>
-   <li>Header Logo</li>
-    <li><a>Header Link 1</a></li>
-    <li><a>Header Link 2</a></li>
-    <li><a>Header Link 3</a></li>
-  </ul>
+ <div class="header"> <!--Use this div flexbox for the header-->
+    <ul>
+     <div class="header-items">
+      <li id="header-logo">Header Logo</li>
+      <div class="header-link">
+       <li><a>Header Link 1</a></li>
+       <li><a>Header Link 2</a></li>
+       <li><a>Header Link 3</a></li>
+      </div>
+     </div>
+    </ul>
  </div>
 
  <div> <!--This is for the second section for sign up and the picture-->
@@ -35,7 +39,7 @@
    <div>This is subtext under image</div>
    <img alt="image four">
    <div>This is subtext under image</div>
- </div>
+  </div>
 
  <div> <!--fourth section for the quote-->
   <div>placeholder for random quote you find online</div>
